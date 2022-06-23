@@ -1,0 +1,42 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color:#00C853;
+}
+
+img#picture{
+    display: block;
+    width: 1000px;
+    margin: auto;
+}
+
+img#discord{
+    display: none;
+    margin: auto;
+    padding: 30px;
+    width: 200px;
+}
+
+img#game{
+    margin: auto;
+    position: fixed;
+    height: 50px;
+    -webkit-animation:glide 0.7s ease-in-out alternate infinite;
+}
+
+@-webkit-keyframes glide  {
+    from {
+       left:1300px;
+       top:400px;
+    }
+    
+    to {
+       left:500px;
+       top:500px;
+    }
+    
+ 
+ }
